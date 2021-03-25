@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,SACE,kBACF,CAEA,OACE,kBAAmB,CACnB,YACF,CAEA,kBACE,eACF","file":"style.fba86a7b.css","sourceRoot":"..\\src","sourcesContent":[".section {\n  margin-bottom: 20px;\n}\n\n.input {\n  margin-bottom: 10px;\n  margin-top: 0;\n}\n\n.input:last-child {\n  margin-bottom: 0;\n}\n"]}
