@@ -12,6 +12,8 @@
     <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="POST"
+      onsubmit="onSubmit()"
+      required autocomplete="off"
     >
       <fieldset class="section">
         <legend>Personal information</legend>
@@ -21,7 +23,6 @@
             type="text"
             id="surname"
             name="surname"
-            required autocomplete="off"
           >
         </div>
         <div class="input">
@@ -30,7 +31,6 @@
             type="text"
             id="name"
             name="name"
-            required autocomplete="off"
           >
         </div>
         <div class="input">
@@ -164,7 +164,7 @@
           </select>
         </div>
       </fieldset>
-      <button type="submit" onsubmit="onSubmit()">Submit</button>
+      <button type="submit">Submit</button>
     </form>
 
     <script type="text/javascript" src="./main.js"></script>
